@@ -1,0 +1,5 @@
+a, b = list(map(int,input().split()))
+S = list(str(input()))
+S[b-1] = str.lower(S[b-1])
+S = "".join(map(str,S))
+print(S)
